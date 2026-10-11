@@ -1,0 +1,46 @@
+:root {
+  --bg: #0f1117;
+  --bg2: #171a22;
+  --panel: #1c2030;
+  --line: #2a3144;
+  --text: #e8eaf0;
+  --muted: #9aa3b5;
+  --accent: #3d8bfd;
+  --accent-dim: #2563c7;
+  --ok: #3ecf8e;
+  --err: #f07178;
+  --warn: #e6c07b;
+  font-family: Jost, system-ui, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.45;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(1200px 600px at 10% -10%, #1a2744 0%, transparent 55%),
+    radial-gradient(900px 500px at 100% 0%, #1b2030 0%, transparent 50%),
+    var(--bg);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+#root {
+  min-height: 100vh;
+}

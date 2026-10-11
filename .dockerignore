@@ -1,0 +1,11 @@
+.venv
+__pycache__
+*.pyc
+.DS_Store
+downloads
+omage
+.git
+*.md
+web/node_modules
+web/dist
+.streamlit
